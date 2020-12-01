@@ -36,12 +36,12 @@ func main() {
 	}
 
 	if cfg.IP != "" {
-		bindIP, _, err := net.ParseCIDR(cfg.IP + "/24")
+		ip, _, err := net.ParseCIDR(cfg.IP + "/24")
 		if err != nil {
 			log.Fatal(err)
 		}
 
-		socsk5conf.BindIP = bindIP
+		socsk5conf.AllowIP = ip
 	}
 
 	server, err := socks5.New(socsk5conf)

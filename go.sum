@@ -1,5 +1,5 @@
-github.com/mengino/go-socks5 v0.0.0-20201201074459-1396df76f498 h1:OED/UHPNvba50XQ+w9sfkdJV+GkXovnj6iz9Nrsk2Yk=
-github.com/mengino/go-socks5 v0.0.0-20201201074459-1396df76f498/go.mod h1:JhUUsIS1lesSUMQYiH1D4XeVF1DIoW/KzXMKcXVNGvM=
+github.com/mengino/go-socks5 v0.0.0-20201201103230-dd7724e5ab34 h1:dhJuF7n5Q0JE6eLqWN89xbtG7PZsvQ2HlSj1K+A8iMw=
+github.com/mengino/go-socks5 v0.0.0-20201201103230-dd7724e5ab34/go.mod h1:JhUUsIS1lesSUMQYiH1D4XeVF1DIoW/KzXMKcXVNGvM=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9/go.mod h1:LzIPMQfyMNhhGPhUkYOs5KpL4U8rLKemX1yGLhDgUto=
 golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
