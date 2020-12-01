@@ -2,7 +2,7 @@ FROM golang
 
 WORKDIR /src
 COPY . .
-RUN export GOARCH=amd64 GOOS=linux && go build -o server
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -ldflags '-s' -o ./server
 
 FROM scratch
 
